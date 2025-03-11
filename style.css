@@ -1,0 +1,36 @@
+* {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #5d8ed8;
+}
+
+#waybar {
+  background-color: transparent;
+  border-radius: 0px; 
+  box-shadow: none;
+  border: none;
+}
+
+#waybar .module {
+  padding: 0 10px;
+}
+
+#waybar .module-left, #waybar .module-right {
+  margin: 0 5px;
+}
+
+#waybar .clock {
+  font-weight: bold;
+}
+
+#waybar .battery {
+  color: #ffcc00;
+}
+
+#waybar .weather {
+  color: #5d8ed8;
+}
+
+#waybar .mode {
+  color: #ff4d4d;
+}
